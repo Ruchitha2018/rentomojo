@@ -1,0 +1,66 @@
+body{
+    font-family: 'Manjari' !important;
+    background: #F5F5F5 !important;    
+}
+.cardLayout{
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid lavender;
+}
+.Link{
+    background: cadetblue;
+    color: white;
+    padding: 08px 18px 08px 18px;
+    margin-top: 10px;
+}
+.heading {
+    color: slategray;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+}
+.Link:hover{
+    color:white;
+}
+.userCard .userName {
+    color: dimgray;
+    font-weight: bold;
+}
+.userCard .userCompany{
+    color:gray;
+}
+.userPostCard .userPostsLink{
+    float:right;
+    margin-top:-32px;
+}
+.userPostCard .postIndex {
+    float: left;
+    margin-top: -33px;
+    font-size: 38px;
+    color: darkgray;
+}
+.commentHeading{
+    color: steelblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.commentCard{
+    border:1px solid whitesmoke;
+    padding:15px;
+}
+.postDetailRow p{
+    text-align: justify;
+    line-height: 28px;
+}
+.postsCounthead {
+    color: midnightblue;
+    padding: 17px;
+    font-size: 20px;
+}
+.DeletePost {
+    color: tomato;
+    font-size: 17px;
+    text-align: right;
+    cursor: pointer;
+}
